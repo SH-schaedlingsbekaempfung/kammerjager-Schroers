@@ -1,0 +1,339 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (min-width: 992px) {
+  /* Add your Mobile Styles here */.not-basic .av_one_half{
+	width: 50% !important;
+    margin:50px 0px !important;
+    float: left;
+}
+
+}
+
+
+
+
+
+
+
+
+
+body.not-basic{
+	background: #ffffff url(/wp-content/themes/enfold/images/background-images/linen-for-light-background.png) top center repeat scroll !important;
+
+}
+.not-basic #wrap_all {
+    background-color: transparent;
+    background: #ffffff url(/wp-content/themes/enfold/images/background-images/linen-for-light-background.png) top center repeat scroll !important;
+    margin: auto !important;
+}
+#wrap_all{
+	background:white !important;
+}
+
+#wrap_all .av-hide-on-mobile{
+	display: block !important;
+}
+.not-basic .avia_textblock  p, .not-basic p span,.not-basic p{
+	/* font-size:15px !important; */
+	/* line-height: 1.2rem !important; */
+	color: inherit !important;
+	text-align:justify !important;
+}
+
+
+.iconbox_content_container, .iconbox_content_container p {
+	text-align:center !important;
+}
+
+
+
+.not-basic #header {
+
+    left: 0px;
+}
+.not-basic .flex_column, #main{
+	background:transparent !important;
+	background: #ffffff url(/wp-content/themes/enfold/images/background-images/linen-for-light-background.png) top center repeat scroll !important;
+}
+.not-basic a {
+	color: #719430;
+}
+.not-basic .title_container .breadcrumb {
+	z-index: 10;
+    line-height: 15px;
+    font-size: 11px;
+    /* position: inherit; */
+    right: 0;
+    /* left: 0px; */
+    top: 30px;
+    /* margin-top: -7px; */
+    position: absolute;
+}
+.not-basic #main, .avia-msie-8 .av_header_sticky_disabled#header{
+	background-color: transparent;
+}
+.not-basic .av-subheading_below{
+	text-align: center !important;
+}
+
+.not-basic .avia-color-theme-color {
+    color: #ffffff;
+    border-color: #507210;
+    background-color: #719430;
+}
+
+.hr-short .hr-inner {
+	border-color:#e1e1e1 !important;
+}
+.not-basic .hr-inner-style{
+	background: #fff;
+	border-color:#e1e1e1 !important;
+}
+
+.not-basic #tab-id-1-container{
+	border-color:#e1e1e1 !important;
+}
+.not-basic .tab{
+	border-color:#e1e1e1 !important;
+}
+.not-basic .tabcontainer{
+	border-color: #e1e1e1 !important;
+}
+.not-basic .verbandslogo{
+	margin-top:60px;
+	border-top:1px solid #e1e1e1;
+	padding-top:60px;
+}
+.not-basic #mitgliedsiconsection .verbandslogo{
+	margin-top:0px;
+	border-top:0px solid #e1e1e1;
+	padding-top:0px;
+}
+.not-basic .badlogo{
+	margin-top:-20px;
+}
+
+
+
+
+.avia-builder-el-120 .avia_textblock p,.avia-builder-el-126 .avia_textblock p, .not-basic .av_one_full p  {
+	text-align:center !important;
+}
+
+#header_main .container, .main_menu ul:first-child > li a {
+    height: 88px !important;
+    line-height: 88px !important;
+}
+.logo a, .logo img {
+	max-height: 88px !important
+}
+.logo a {
+	padding-top:10px;
+}
+
+.supersticky #header_main .container, .supersticky .main_menu ul:first-child > li a {
+    height: 44px !important;
+    line-height: 44px !important;
+}
+.supersticky .logo a, .supersticky .logo img {
+	max-height: 41px !important;
+}
+
+.supersticky .logo a {
+	padding-top:0px;
+}
+
+@media only screen and (min-width: 768px) {
+.not-basic .avia-builder-el-3.iconbox, .not-basic .avia-builder-el-7.iconbox{
+	/* max-width: 47% !important; */
+    /* float: left; */
+    margin-right:5% !important;
+}
+.not-basic .avia-builder-el-5.iconbox, .not-basic .avia-builder-el-9.iconbox{
+	/* max-width: 47% !important; */
+	margin-left:5% !important;
+	/* float: left; */
+}
+.not-basic .avia-builder-el-9{
+	/* margin-top:30px !important; */
+}
+.not-basic .verbandslogo{
+	margin-top:0px !important;
+}
+
+
+.not-basic #main > div > .container{
+	padding-left:0px;
+	padding-right:0px;
+}
+.not-basic #wrap_all {
+    max-width: 1310px !important;
+    padding:0 50px;
+}
+
+.not-basic footer {
+	/* position: absolute; */
+}
+#socket {
+    font-size: 11px;
+    margin-top: 0px;
+    z-index: 1;
+}
+.logo img{
+	/* max-height: 41px !important; */
+}
+/* #header_main{
+	padding:10px 0;
+}
+.avia-menu-fx {
+	top:64px;
+}
+.av-main-nav > li > ul {
+    border-top-width: 2px;
+    margin-top: 10px;
+    border-top-style: solid;
+} */
+/* #socket .container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto !important;
+    display: inline-block;
+    width: 100vw;
+    max-width: 1310px;
+    position: relative;
+    width: 100vw;
+    margin-left: calc(-16vw + 50%) !important;
+    border: 1px solid red;
+    right: calc(-50vw + 50%) !important;
+} */
+}
+
+@media only screen and (max-width: 767px) {
+	.not-basic #wrap_all > div{
+		padding:0 10px;
+	}
+	.not-basic #header{
+		padding:0px;
+	}
+}
+
+.page-id-104 .avia-builder-el-5 {
+	margin-top:30px !important;
+}
+
+.page-id-104  #after_submenu_1{
+	border:0px !important;
+}
+
+
+#top .iconbox_left_content .iconbox_icon, #top .iconbox_right_content .iconbox_icon {
+    width: 37px;
+    height: 37px;
+    font-size: 14px;
+    line-height: 37px !important;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 500px;
+    text-align: center;
+    /* margin-top: 13px; */
+    margin-right: 8px;
+    margin-top:-2px;
+}
+
+#mitgliedsiconsection{
+	max-width: 1310px !important;
+    margin: auto !important;
+    border:0px !important
+}
+.not-basic #mitgliedsiconsection{
+
+    border-top:1px solid #e1e1e1 !important;
+    border-bottom:1px solid #e1e1e1 !important;
+}
+#mitgliedsiconsection p{
+	text-align:center !important;
+}
+#mitgliedsiconsection .av_one_third:first-child{
+	padding-top:20px !important;
+}
+
+.page-id-104 .avia-image-overlay-wrap img, .not-basic .avia-image-overlay-wrap img{
+	max-height:160px !important;
+	min-height:160px !important;
+	width:auto !important;
+}
+.not-basic .entry-content .avia_image{
+	width:100% !important;
+	height:160px !important;
+	padding-right:10px !important;
+}
+.not-basic .entry-content img{
+	display: block;
+	float:left;
+	margin-right:10px !important;
+}
+#mitgliedsiconsection .avia_image{
+	max-height:160px !important;
+	min-height:160px !important;
+	width:auto !important;
+}
+
+.not-basic .iconbox.avia-builder-el-9{
+	margin-top:20px !important;
+}
+
+
+@media only screen and (max-width: 576px) {
+#top .iconbox_left_content .iconbox_icon, #top .iconbox_right_content .iconbox_icon {
+    width: 37px;
+    height: 37px;
+    font-size: 14px;
+    line-height: 37px !important;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 500px;
+    text-align: center;
+    /* margin-top: 13px; */
+    margin-right: 8px;
+    margin-top:-2px;
+}
+.page-id-15 .iconbox_content h4:empty{
+	display: none !important;
+}
+#mitgliedsiconsection .av-hide-on-mobile{
+	display: block !important;
+}
+
+.lightbox-added {
+	float:left !important;
+}
+.lightbox-added img{
+	margin:10px 0 !important;
+}
+}
+
+
+
+
